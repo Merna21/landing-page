@@ -6,7 +6,7 @@
 
 ## Description
 
-Dynamic Landing Page With 4 Sections Or More As You Want 
-Dynamic Navbar With The Same Number Of Sections
-Resposive Navbar 
-Know The Section When It's On The Viewport
+Dynamic landing page with 4 sections or more as you want. 
+Dynamic navbar with the same number of sections.
+Resposive navbar. 
+Know the section when it's on the viewport
