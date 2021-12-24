@@ -64,29 +64,45 @@ section {
 /* ---- Module Rules ---- */
 
 /* Navigation Styles*/
+.navbar__menu{
+    background-color: rgba(0,13,60,1);
+}
 .navbar__menu ul {
     padding-left: 0;
     margin: 0;
-    text-align: right;
+    text-align: left;
 }
 
 .navbar__menu li {
     display: inline-block;
+    color: white;
+    padding: 20;
+    font-weight: bold;
+    font-size: 20;
 }
 
-.navbar__menu .menu__link {
+.navbar__menu a {
     display: block;
     padding: 1em;
     font-weight: bold;
     text-decoration: none;
-    color: #000;
+    color: white;
 }
 
-.navbar__menu .menu__link:hover {
-    background: #333;
+.navbar__menu a:hover {
+    background: rgb(119, 117, 117);
     color: #fff;
     transition: ease 0.3s all;
+    border-radius: 50px;
 }
+
+/* making the navbar responsive */
+@media screen and (max-width: 700px) {
+    .navbar__menu li {
+       float: none;
+       width: 100%;
+    }
+ }
 
 /* Header Styles */
 .page__header {
@@ -115,6 +131,8 @@ section {
     padding: 1em;
     text-align: left;
 }
+
+
 
 @media only screen and (min-width: 35em){
     .landing__container {
@@ -197,6 +215,13 @@ section.your-active-class {
     background: rgb(0, 0, 0);
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
 }
+
+a.item-active-class {
+
+    background-color: rgb(125, 138, 185);
+    border-radius: 50px;
+}
+
 
 section.your-active-class .landing__container::before {
     opacity: 1;
